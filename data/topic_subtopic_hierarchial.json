@@ -1,0 +1,86 @@
+{
+  "name": "text",
+  "children": [
+    {
+      "name": "Consumer Impact",
+      "children": [
+        {"name": "Business Response", "value": 304},
+        {"name": "Demand Changes", "value": 389},
+        {"name": "Market Impact", "value": 820}
+      ]
+    },
+    {
+      "name": "Global Economy",
+      "children": [
+        {"name": "Consumer Behavior", "value": 188},
+        {"name": "Economic Impact", "value": 172},
+        {"name": "Market Prices", "value": 133}
+      ]
+    },
+    {
+      "name": "Health Measures",
+      "children": [
+        {"name": "Hand Hygiene", "value": 319},
+        {"name": "Health Reports", "value": 297},
+        {"name": "Healthcare Services", "value": 353}
+      ]
+    },
+    {
+      "name": "Oil Market",
+      "children": [
+        {"name": "Oil Market Impact", "value": 336},
+        {"name": "Price Trends", "value": 316},
+        {"name": "Price Volatility", "value": 270}
+      ]
+    },
+    {
+      "name": "Online Shopping",
+      "children": [
+        {"name": "Local Support", "value": 217},
+        {"name": "Online Orders", "value": 124},
+        {"name": "Order Pricing", "value": 158}
+
+      ]
+    },
+    {
+      "name": "Shopping Behavior",
+      "children": [
+        {"name": "Buying Trends", "value": 356},
+        {"name": "Financial Assistance", "value": 354},
+        {"name": "Price Fluctuations", "value": 244}
+      ]
+    },
+    {
+      "name": "Stay Home",
+      "children": [
+        {"name": "Home Safety", "value": 96},
+        {"name": "Information Sources", "value": 129},
+        {"name": "Stay-at-home Measures", "value": 204}
+      ]
+    },
+    {
+      "name": "Store",
+      "children": [
+        {"name": "Customer Waiting", "value": 330},
+        {"name": "Store Operations", "value": 238},
+        {"name": "Worker Safety", "value": 510}
+      ]
+    },
+    {
+      "name": "Store Visits",
+      "children": [
+        {"name": "In-store Visits", "value": 608},
+        {"name": "Paper Purchases", "value": 355},
+        {"name": "Price Awareness", "value": 492}
+      ]
+    },
+    {
+      "name": "Time Periods",
+      "children": [
+        {"name": "Daily Reports", "value": 155},
+        {"name": "Stock Market Activity", "value": 176},
+        {"name": "Weekly Trends", "value": 205}
+      ]
+    }
+  ]
+}

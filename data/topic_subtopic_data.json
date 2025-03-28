@@ -1,0 +1,52 @@
+{
+    "Consumer Impact": [
+        "Business Response",
+        "Demand Changes",
+        "Market Impact"
+    ],
+    "Global Economy": [
+        "Consumer Behavior",
+        "Economic Impact",
+        "Market Prices"
+    ],
+    "Health Measures": [
+        "Hand Hygiene",
+        "Health Reports",
+        "Healthcare Services"
+    ],
+    "Oil Market": [
+        "Oil Market Impact",
+        "Price Trends",
+        "Price Volatility"
+    ],
+    "Online Shopping": [
+        "Local Support",
+        "Online Orders",
+        "Order Pricing"
+    ],
+    "Shopping Behavior": [
+        "Buying Trends",
+        "Financial Assistance",
+        "Price Fluctuations"
+    ],
+    "Stay Home": [
+        "Home Safety",
+        "Information Sources",
+        "Stay-at-home Measures"
+    ],
+    "Store": [
+        "Customer Waiting",
+        "Store Operations",
+        "Worker Safety"
+    ],
+    "Store Visits": [
+        "In-store Visits",
+        "Paper Purchases",
+        "Price Awareness"
+    ],
+    "Time Periods": [
+        "Daily Reports",
+        "Stock Market Activity",
+        "Weekly Trends"
+    ]
+}

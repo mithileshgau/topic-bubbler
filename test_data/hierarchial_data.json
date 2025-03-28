@@ -1,0 +1,36 @@
+{
+  "name": "text",
+  "children": [
+    {
+      "name": "Topic1",
+      "children": [
+        {"name": "Subtopic1.1", "value": 10},
+        {"name": "Subtopic1.2", "value": 15},
+        {"name": "Subtopic1.3", "value": 12}
+      ]
+    },
+    {
+      "name": "Topic2",
+      "children": [
+        {"name": "Subtopic2.1", "value": 8},
+        {"name": "Subtopic2.2", "value": 13},
+        {"name": "Subtopic2.3", "value": 11}
+      ]
+    },
+    {
+      "name": "Topic3",
+      "children": [
+        {"name": "Subtopic3.1", "value": 9},
+        {"name": "Subtopic3.2", "value": 13},
+        {"name": "Subtopic3.3", "value": 16}
+      ]
+    },
+    {
+      "name": "Topic4",
+      "children": [
+        {"name": "Subtopic4.1", "value": 21},
+        {"name": "Subtopic4.2", "value": 14}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>DV Project - CSE 578 - Spring 2023</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="kunal.js"></script>
+    <style>
+        body {
+            background-color:rgb(243, 232, 206);
+        }
+        .bubbles {
+            stroke-width: 1px;
+            stroke: black;
+            opacity: .8
+        }
+
+        .bubbles:hover {
+            stroke: black;
+        }
+
+        #my_dataviz {
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+
+        /* style range */
+        input[type=range] {
+            width: 100%;
+            max-width: 100%;
+            margin-left: 0;
+        }
+
+        /* style datalist */
+        input[type=range]+datalist {
+            display: flex;
+            margin-top: -4px;
+        }
+
+        input[type=range]+datalist option {
+            display: inline-block;
+            width: calc((100% - 12px) / (var(--list-length) - 1));
+            text-align: center;
+        }
+
+        input[type=range]+datalist option:first-child {
+            width: calc((100% - 12px) / ((var(--list-length) - 1) * 2) + 6px);
+            text-align: left;
+        }
+
+        input[type=range]+datalist option:last-child {
+            width: calc((100% - 12px) / ((var(--list-length) - 1) * 2) + 6px);
+            text-align: right;
+        }
+    </style>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .myContainer {
+            margin: auto;
+            width: 2000px;
+            height: 2200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myContainer">
+        <h1 class="text-center">DV Project - CSE 578</h1>
+        <h3 class="text-center">Kunal Nevagi - knevagi@asu.edu</h3>
+        <h3 class="text-center">Mithilesh Gaurihar - mgauriha@asu.edu</h3>
+        <h3 class="text-center">Rakshita Madhavan - rmadhav6@asu.edu</h3>
+        <h3 class="text-center">Zakiya Ali - zali15@asu.edu</h3>
+        <h3 class="text-center">Edwin Shibu Joseph - esjoseph@asu.edu</h3>
+        <hr>
+        <div
+            style="display: flex;flex: 1;flex-direction: column;align-self: flex-start;margin-right:400px;margin-bottom: -100px;">
+            <input type="range" min="0" max="10" id="my-range" value="0" list="my-datalist" />
+            <datalist id="my-datalist" style="--list-length: 11;"><!--
+                  --->
+                <option>0</option><!--
+                  --->
+                <option>1</option><!--
+                  --->
+                <option>2</option><!--
+                  --->
+                <option>3</option><!--
+                  --->
+                <option>4</option><!--
+                  --->
+                <option>5</option><!--
+                  --->
+                <option>6</option><!--
+                  --->
+                <option>7</option><!--
+                  --->
+                <option>8</option><!--
+                  --->
+                <option>9</option><!--
+                  --->
+                <option>10</option><!--
+                --->
+            </datalist>
+        </div>
+        <div id="topContainer">
+            <div style="width: auto;height: auto;margin-left: -80px;" id="my_dataviz"></div>
+            <div id="keyword_div" style="margin-top: 80px;">
+                <svg id="keyword_svg" width="400" height="500"></svg>
+            </div>
+        </div>
+        <div id="midContainer">
+            <div id="event_div" style="position: relative; margin-top: 200px;">
+                <svg id="event_svg" width=80% height="600"></svg>
+                <button id="execute_button" style="position: absolute; top: 100px; right: 200px;">Execute</button>
+            </div>
+        </div>
+        <div id="bottomContainer">
+            <div id="temporal_div">
+                <svg id="temporal_svg" width="500" height="500"></svg>
+            </div>
+            <div id="hierarchial_div">
+                <svg id="hierarchial_svg" width="800" height="800"></svg>
+            </div>
+            <div id="document_div">
+                <svg id="document_svg" width="500" height="500"></svg>
+            </div>
+        </div>
+        <div id="tooltip"></div>
+
+    </div>
+</body>
+
+</html>

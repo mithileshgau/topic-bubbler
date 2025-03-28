@@ -1,0 +1,112 @@
+{
+    "Consumer Impact": [
+        {
+            "Business Response": 304
+        },
+        {
+            "Demand Changes": 389
+        },
+        {
+            "Market Impact": 820
+        }
+    ],
+    "Global Economy": [
+        {
+            "Consumer Behavior": 188
+        },
+        {
+            "Economic Impact": 172
+        },
+        {
+            "Market Prices": 133
+        }
+    ],
+    "Health Measures": [
+        {
+            "Hand Hygiene": 319
+        },
+        {
+            "Health Reports": 297
+        },
+        {
+            "Healthcare Services": 353
+        }
+    ],
+    "Oil Market": [
+        {
+            "Oil Market Impact": 336
+        },
+        {
+            "Price Trends": 316
+        },
+        {
+            "Price Volatility": 270
+        }
+    ],
+    "Online Shopping": [
+        {
+            "Local Support": 217
+        },
+        {
+            "Online Orders": 124
+        },
+        {
+            "Order Pricing": 158
+        }
+    ],
+    "Shopping Behavior": [
+        {
+            "Buying Trends": 356
+        },
+        {
+            "Financial Assistance": 354
+        },
+        {
+            "Price Fluctuations": 244
+        }
+    ],
+    "Stay Home": [
+        {
+            "Home Safety": 96
+        },
+        {
+            "Information Sources": 129
+        },
+        {
+            "Stay-at-home Measures": 204
+        }
+    ],
+    "Store": [
+        {
+            "Customer Waiting": 330
+        },
+        {
+            "Store Operations": 238
+        },
+        {
+            "Worker Safety": 510
+        }
+    ],
+    "Store Visits": [
+        {
+            "In-store Visits": 608
+        },
+        {
+            "Paper Purchases": 355
+        },
+        {
+            "Price Awareness": 492
+        }
+    ],
+    "Time Periods": [
+        {
+            "Daily Reports": 155
+        },
+        {
+            "Stock Market Activity": 176
+        },
+        {
+            "Weekly Trends": 205
+        }
+    ]
+}
